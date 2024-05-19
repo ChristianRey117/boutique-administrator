@@ -17,6 +17,7 @@ export default function Products() {
             id={1}
             image={"/images/camisa-real.jpg"}
             title={"Camisa Real Madrid"}
+            nextStep={"/pages/product/"}
           ></CardItem>
         </div>
       </div>

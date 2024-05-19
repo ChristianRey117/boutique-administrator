@@ -17,6 +17,7 @@ export default function Promotions() {
             id={1}
             image={"/images/camisa-real.jpg"}
             title={"Promotion Prientemps"}
+            nextStep={"/pages/promotion/"}
           ></CardItem>
         </div>
       </div>

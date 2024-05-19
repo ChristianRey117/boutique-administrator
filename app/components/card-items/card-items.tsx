@@ -1,8 +1,10 @@
+import { useRouter } from "next/navigation";
 import { Card } from "react-bootstrap";
 
-export default function CardItem({ id, title, image }: any) {
+export default function CardItem({ id, title, image, nextStep }: any) {
+  const _router = useRouter();
   return (
-    <Card>
+    <Card onClick={() => _router.push(nextStep + id)}>
       <Card.Img variant="top" src={image} />
       <Card.Body>
         <Card.Title>

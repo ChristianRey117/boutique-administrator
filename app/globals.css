@@ -1,6 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import "../node_modules/primereact/resources/themes/arya-blue/theme.css";
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -31,3 +33,62 @@ body {
     text-wrap: balance;
   }
 }
+
+h1{
+  font-size: 2.6rem;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+  font-size: 2.2rem;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3{
+  font-size: 1.6rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.p-dropdown{
+  background-color: rgb(70 90 119);
+}
+.p-dropdown-items{
+  background-color: rgb(112, 135, 168);
+}
+.p-inputgroup{
+  span{
+    background-color: rgb(70 90 119);
+
+  }
+  .p-inputtext{
+    background-color: rgb(70 90 119);
+  }
+}
+
+.size-button{
+  div{
+    padding: 25px;
+    text-align: center;
+    button{
+      width: 50px;
+    }
+  }
+}
+
+.p-inputtext{
+  background-color: rgb(133, 144, 161);
+  height: 2.5rem;
+}
+
+.p-fileupload-buttonbar{
+  background-color: rgb(102, 122, 151);
+
+}
+
+.p-fileupload-content{
+  background-color: rgb(133, 144, 161);
+
+}
+
+

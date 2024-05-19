@@ -2,12 +2,12 @@
 import CardItem from "@/app/components/card-items/card-items";
 import { Card } from "react-bootstrap";
 
-export default function Products() {
+export default function Promotions() {
   return (
     <div className="container">
       <div className="row" style={{ margin: "5%" }}>
         <div className="col-12">
-          <h1>Products</h1>
+          <h1>Promotions</h1>
         </div>
       </div>
 
@@ -16,7 +16,7 @@ export default function Products() {
           <CardItem
             id={1}
             image={"/images/camisa-real.jpg"}
-            title={"Camisa Real Madrid"}
+            title={"Promotion Prientemps"}
           ></CardItem>
         </div>
       </div>

@@ -41,6 +41,7 @@ export default function CardItem({ id, title, image, nextStep }: ICardItem) {
               <button
                 className="rounded-full pl-2 pr-1 py-1 text-white flex items-center space-x-1 bg-black mt-4 text-md font-bold dark:bg-zinc-800"
                 style={{ width: "60px", marginLeft: "25%" }}
+                onClick={() => _router.push(nextStep + id)}
               >
                 <span>Editar </span>
               </button>

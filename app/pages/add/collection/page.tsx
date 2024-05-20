@@ -4,20 +4,16 @@ import { InputText } from "primereact/inputtext";
 import { useEffect, useState } from "react";
 import { ICollections } from "../../promotions/page";
 
-export default function PromotionId() {
-  const [collection, setCollection] = useState<ICollections>();
-  const [constId, setId] = useState<any>();
-
+export default function AddCollection() {
   const submitAction = (event: any) => {
     event.preventDefault();
-    console.log(event.target[0].value);
     const changeCollection: any = {
       availableData: event.target.availableData.value,
       nameColletion: event.target.nameColletion.value,
       descriptionColletion: event.target.descriptionColletion.value,
     };
-    fetch("http://localhost:3000/collections/" + constId, {
-      method: "PUT",
+    fetch("http://localhost:3000/collections", {
+      method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(changeCollection),
     })
@@ -28,21 +24,12 @@ export default function PromotionId() {
       });
   };
 
-  useEffect(() => {
-    const params = new URLSearchParams(document.location.search);
-    const id = params.get("id");
-    setId(id);
-    fetch("http://localhost:3000/collections/" + id)
-      .then((res) => res.json())
-      .then((data) => {
-        setCollection(data);
-      });
-  }, []);
+  useEffect(() => {}, []);
   return (
     <div className="container">
       <div className="row" style={{ margin: "5%" }}>
         <div className="col-12">
-          <h1>{collection?.nameColletion}</h1>
+          <h1>Add new collection</h1>
         </div>
       </div>
 
@@ -57,7 +44,6 @@ export default function PromotionId() {
                 type="tect"
                 className="p-inputtext-lg"
                 required
-                defaultValue={collection?.nameColletion}
               />
               <small id="username-help">Enter name of collection.</small>
             </div>
@@ -70,7 +56,6 @@ export default function PromotionId() {
                 type="text"
                 className="p-inputtext-lg"
                 required
-                defaultValue={collection?.descriptionColletion}
               />
               <small id="username-help">Enter description of collection.</small>
             </div>
@@ -83,7 +68,6 @@ export default function PromotionId() {
                 type="date"
                 className="p-inputtext-lg"
                 required
-                defaultValue={collection?.availableData}
               />
               <small id="username-help">
                 Enter date available of collection.

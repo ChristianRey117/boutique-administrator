@@ -1,10 +1,11 @@
 "use client";
 import CardItem from "@/app/components/card-items/card-items";
+import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 
 export default function Products() {
   const [products, setProducts] = useState(Array<IProducts>);
-
+  const _router = useRouter();
   useEffect(() => {
     fetch("http://localhost:3000/products")
       .then((res) => res.json())
@@ -20,7 +21,19 @@ export default function Products() {
         </div>
       </div>
 
-      <div className="row" style={{ margin: "10%" }}>
+      <div className="row">
+        <div className="col-12">
+          <button
+            className="btn btn-success"
+            style={{ margin: "0% 10%" }}
+            onClick={() => _router.push("/pages/add/product")}
+          >
+            Add new produit
+          </button>
+        </div>
+      </div>
+
+      <div className="row" style={{ margin: "5% 10%" }}>
         {products.map((product) => {
           return (
             <div className="col-4 mb-4">

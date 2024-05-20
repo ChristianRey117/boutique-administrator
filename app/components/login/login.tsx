@@ -3,9 +3,23 @@ import { useRouter } from "next/navigation";
 import { InputText } from "primereact/inputtext";
 import React, { useEffect, useState } from "react";
 import { Card } from "react-bootstrap";
+import MessageDialog from "../message-dialog/message-dialog";
 
 export default function Login() {
   const _router = useRouter();
+  const [modalShow, setModalShow] = useState(false);
+  const submitAction = (event: any) => {
+    event.preventDefault();
+    const user = event.target.user.value;
+    const password = event.target.password.value;
+
+    if (user == "ilovecats" && password == "ihatedogs") {
+      document.cookie = "isLogin=true;";
+      _router.push("/pages/products");
+    } else {
+      setModalShow(true);
+    }
+  };
   return (
     <div className="container m-5">
       <div className="row" style={{ margin: "15%" }}>
@@ -19,17 +33,17 @@ export default function Login() {
                 Login
               </Card.Title>
               <Card.Text>
-                <form style={{ padding: "10px" }}>
+                <form style={{ padding: "10px" }} onSubmit={submitAction}>
                   <div className="flex flex-column gap-2 mb-4 ">
-                    <label htmlFor="username">Email</label>
+                    <label htmlFor="username">Username</label>
                     <InputText
-                      id="email"
+                      id="user"
                       aria-describedby="username-help"
-                      type="email"
+                      type="text"
                       className="p-inputtext-lg"
                       required
                     />
-                    <small id="username-help">Enter your email.</small>
+                    <small id="username-help">Enter your user.</small>
                   </div>
 
                   <div className="flex flex-column gap-2 mb-4 ">
@@ -45,11 +59,7 @@ export default function Login() {
                   </div>
 
                   <div className="flex flex-column gap-2 mb-4 ">
-                    <button
-                      className="btn btn-success"
-                      type="submit"
-                      onClick={() => _router.push("/pages/products")}
-                    >
+                    <button className="btn btn-success" type="submit">
                       Login
                     </button>
                   </div>
@@ -59,6 +69,14 @@ export default function Login() {
           </Card>
         </div>
       </div>
+
+      <MessageDialog
+        show={modalShow}
+        title="Error Login"
+        subtitle="Incorrect username or password"
+        text="You should write the right password and username!"
+        onHide={() => setModalShow(false)}
+      ></MessageDialog>
     </div>
   );
 }

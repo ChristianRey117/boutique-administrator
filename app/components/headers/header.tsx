@@ -11,7 +11,7 @@ import { useRouter } from "next/navigation";
 
 const navigation = [
   { name: "Products", href: "/pages/products", current: true },
-  { name: "Promotions", href: "/pages/promotions", current: false },
+  { name: "Collections", href: "/pages/promotions", current: false },
 ];
 
 function classNames(...classes: any) {
@@ -26,13 +26,20 @@ export default function Header() {
     "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
   ];
 
+  function getCookie(name: string) {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop().split(";").shift();
+  }
+
   useEffect(() => {
-    if (localStorage.getItem("isLogin")) {
+    if (JSON.parse(getCookie("isLogin") ?? "")) {
       setIsLogin(true);
     }
   }, []);
 
   const handleClick = () => {
+    document.cookie = "isLogin" + "=false; path=" + "/" + ";";
     router.push("/");
   };
   return (

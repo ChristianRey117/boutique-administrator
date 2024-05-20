@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 export default function Products() {
   const [products, setProducts] = useState(Array<IProducts>);
   const _router = useRouter();
+
   useEffect(() => {
     fetch("http://localhost:3000/products")
       .then((res) => res.json())
@@ -13,6 +14,7 @@ export default function Products() {
         setProducts(data);
       });
   }, []);
+
   return (
     <div className="container">
       <div className="row" style={{ margin: "5%" }}>

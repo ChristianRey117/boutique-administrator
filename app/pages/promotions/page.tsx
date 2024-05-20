@@ -19,7 +19,7 @@ export default function Promotions() {
     <div className="container">
       <div className="row" style={{ margin: "5%" }}>
         <div className="col-12">
-          <h1>Promotions</h1>
+          <h1>Collections</h1>
         </div>
       </div>
 
@@ -30,7 +30,7 @@ export default function Promotions() {
             style={{ margin: "0% 10%" }}
             onClick={() => _router.push("/pages/add/collection")}
           >
-            Add new produit
+            Add new collection
           </button>
         </div>
       </div>

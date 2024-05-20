@@ -8,10 +8,16 @@ export default function CardItem({ id, title, image, nextStep }: ICardItem) {
 
   const handleClose = () => {
     setShow(false);
-    fetch("http://localhost:3000/products/1?id=" + id, { method: "DELETE" })
+    fetch(
+      nextStep === "/pages/product/"
+        ? "http://localhost:3000/products/" + id
+        : "http://localhost:3000/collections/" + id,
+      { method: "DELETE" }
+    )
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
+        window.location.reload();
       });
   };
 

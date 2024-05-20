@@ -10,10 +10,10 @@ export default function PromotionId() {
   useEffect(() => {
     const params = new URLSearchParams(document.location.search);
     const id = params.get("id");
-    fetch("http://localhost:3000/collections?id=" + id)
+    fetch("http://localhost:3000/collections/" + id)
       .then((res) => res.json())
       .then((data) => {
-        setCollection(data[0]);
+        setCollection(data);
       });
   }, []);
   return (

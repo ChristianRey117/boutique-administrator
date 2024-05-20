@@ -10,10 +10,10 @@ export default function ProductId() {
   useEffect(() => {
     const params = new URLSearchParams(document.location.search);
     const id = params.get("id");
-    fetch("http://localhost:3000/products?id=" + id)
+    fetch("http://localhost:3000/products/" + id)
       .then((res) => res.json())
       .then((data) => {
-        setProduct(data[0]);
+        setProduct(data);
       });
   }, []);
   return (

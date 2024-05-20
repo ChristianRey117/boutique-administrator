@@ -1,8 +1,18 @@
 "use client";
 import CardItem from "@/app/components/card-items/card-items";
+import { useEffect, useState } from "react";
 import { Card } from "react-bootstrap";
 
 export default function Products() {
+  const [products, setProducts] = useState(Array<IProducts>);
+
+  useEffect(() => {
+    fetch("http://localhost:3000/products")
+      .then((res) => res.json())
+      .then((data) => {
+        setProducts(data);
+      });
+  }, []);
   return (
     <div className="container">
       <div className="row" style={{ margin: "5%" }}>
@@ -12,15 +22,30 @@ export default function Products() {
       </div>
 
       <div className="row" style={{ margin: "10%" }}>
-        <div className="col-4">
-          <CardItem
-            id={1}
-            image={"/images/camisa-real.jpg"}
-            title={"Camisa Real Madrid"}
-            nextStep={"/pages/product/"}
-          ></CardItem>
-        </div>
+        {products.map((product) => {
+          return (
+            <div className="col-4 mb-4">
+              <CardItem
+                id={product.id}
+                image={product.image}
+                title={product.title}
+                nextStep={"/pages/product/"}
+                key={product.id}
+              ></CardItem>
+            </div>
+          );
+        })}
       </div>
     </div>
   );
+}
+
+export interface IProducts {
+  id: number;
+  createAt: string;
+  title: string;
+  quantity: number;
+  category: string;
+  collection: string;
+  image: string;
 }

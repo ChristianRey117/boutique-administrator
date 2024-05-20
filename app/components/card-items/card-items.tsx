@@ -1,7 +1,7 @@
 import { useRouter } from "next/navigation";
 import { Card } from "react-bootstrap";
 
-export default function CardItem({ id, title, image, nextStep }: any) {
+export default function CardItem({ id, title, image, nextStep }: ICardItem) {
   const _router = useRouter();
   return (
     <Card onClick={() => _router.push(nextStep + id)}>
@@ -35,4 +35,11 @@ export default function CardItem({ id, title, image, nextStep }: any) {
       </Card.Body>
     </Card>
   );
+}
+
+export interface ICardItem {
+  id: number;
+  title: string;
+  image: string;
+  nextStep: string;
 }

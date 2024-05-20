@@ -1,0 +1,185 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "createAt": "2024-05-19",
+            "title": "Camiseta Deportiva FC Barcelona",
+            "quantity": 3,
+            "category": "España",
+            "collection": "La Liga",
+            "image": "/images/camisa-real.jpg"
+        },
+        {
+            "id": 2,
+            "createAt": "2024-05-19",
+            "title": "Camiseta Deportiva Real Madrid",
+            "quantity": 7,
+            "category": "España",
+            "collection": "La Liga",
+            "image": "/images/camisa-real.jpg"
+        },
+        {
+            "id": 3,
+            "createAt": "2024-05-19",
+            "title": "Camiseta Deportiva Manchester United",
+            "quantity": 5,
+            "category": "Inglaterra",
+            "collection": "Premier League",
+            "image": "/images/camisa-real.jpg"
+        },
+        {
+            "id": 4,
+            "createAt": "2024-05-19",
+            "title": "Camiseta Deportiva Liverpool FC",
+            "quantity": 4,
+            "category": "Inglaterra",
+            "collection": "Premier League",
+            "image": "/images/camisa-real.jpg"
+        },
+        {
+            "id": 5,
+            "createAt": "2024-05-19",
+            "title": "Camiseta Deportiva Juventus",
+            "quantity": 6,
+            "category": "Italia",
+            "collection": "Serie A",
+            "image": "/images/camisa-real.jpg"
+        },
+        {
+            "id": 6,
+            "createAt": "2024-05-19",
+            "title": "Camiseta Deportiva Bayern Munich",
+            "quantity": 2,
+            "category": "Alemania",
+            "collection": "Bundesliga",
+            "image": "/images/camisa-real.jpg"
+        },
+        {
+            "id": 7,
+            "createAt": "2024-05-19",
+            "title": "Camiseta Deportiva PSG",
+            "quantity": 8,
+            "category": "Francia",
+            "collection": "Ligue 1",
+            "image": "/images/camisa-real.jpg"
+        },
+        {
+            "id": 8,
+            "createAt": "2024-05-19",
+            "title": "Camiseta Deportiva Chelsea FC",
+            "quantity": 5,
+            "category": "Inglaterra",
+            "collection": "Premier League",
+            "image": "/images/camisa-real.jpg 61y1zF72rUL._AC_UL1500_.jpg"
+        },
+        {
+            "id": 9,
+            "createAt": "2024-05-19",
+            "title": "Camiseta Deportiva AC Milan",
+            "quantity": 9,
+            "category": "Italia",
+            "collection": "Serie A",
+            "image": "/images/camisa-real.jpg 71nXWlMPX3L._AC_UL1500_.jpg"
+        },
+        {
+            "id": 10,
+            "createAt": "2024-05-19",
+            "title": "Camiseta Deportiva Inter de Milán",
+            "quantity": 4,
+            "category": "Italia",
+            "collection": "Serie A",
+            "image": "/images/camisa-real.jpg 51jJxAIyEJL._AC_UL1000_.jpg"
+        },
+        {
+            "id": 11,
+            "createAt": "2024-05-19",
+            "title": "Camiseta Deportiva Tottenham Hotspur",
+            "quantity": 7,
+            "category": "Inglaterra",
+            "collection": "Premier League",
+            "image": "/images/camisa-real.jpg 61FtDAryljL._AC_UL1500_.jpg"
+        },
+        {
+            "id": 12,
+            "createAt": "2024-05-19",
+            "title": "Camiseta Deportiva Arsenal FC",
+            "quantity": 3,
+            "category": "Inglaterra",
+            "collection": "Premier League",
+            "image": "/images/camisa-real.jpg 61rLTeJZUpL._AC_UL1500_.jpg"
+        },
+        {
+            "id": 13,
+            "createAt": "2024-05-19",
+            "title": "Camiseta Deportiva Borussia Dortmund",
+            "quantity": 6,
+            "category": "Alemania",
+            "collection": "Bundesliga",
+            "image": "/images/camisa-real.jpg 51IuUO2S+iL._AC_UL1000_.jpg"
+        },
+        {
+            "id": 14,
+            "createAt": "2024-05-19",
+            "title": "Camiseta Deportiva Atlético de Madrid",
+            "quantity": 5,
+            "category": "España",
+            "collection": "La Liga",
+            "image": "/images/camisa-real.jpg 61PHW9JtQzL._AC_UL1500_.jpg"
+        },
+        {
+            "id": 15,
+            "createAt": "2024-05-19",
+            "title": "Camiseta Deportiva AS Roma",
+            "quantity": 8,
+            "category": "Italia",
+            "collection": "Serie A",
+            "image": "/images/camisa-real.jpg 71+pHltxyDL._AC_UL1500_.jpg"
+        },
+        {
+            "id": 16,
+            "createAt": "2024-05-19",
+            "title": "Camiseta Deportiva FC Porto",
+            "quantity": 4,
+            "category": "Portugal",
+            "collection": "Primeira Liga",
+            "image": "/images/camisa-real.jpg 61Qa1N10g+L._AC_UL1500_.jpg"
+        },
+        {
+            "id": 17,
+            "createAt": "2024-05-19",
+            "title": "Camiseta Deportiva SL Benfica",
+            "quantity": 7,
+            "category": "Portugal",
+            "collection": "Primeira Liga",
+            "image": "/images/camisa-real.jpg 71pfymLGRXL._AC_UL1500_.jpg"
+        },
+        {
+            "id": 18,
+            "createAt": "2024-05-19",
+            "title": "Camiseta Deportiva Sevilla FC",
+            "quantity": 6,
+            "category": "España",
+            "collection": "La Liga",
+            "image": "/images/camisa-real.jpg 51Oq9t3iNjL._AC_UL1000_.jpg"
+        },
+        {
+            "id": 19,
+            "createAt": "2024-05-19",
+            "title": "Camiseta Deportiva Olympique de Lyon",
+            "quantity": 5,
+            "category": "Francia",
+            "collection": "Ligue 1",
+            "image": "/images/camisa-real.jpg 61kAviYrOHL._AC_UL1500_.jpg"
+        },
+        {
+            "id": 20,
+            "createAt": "2024-05-19",
+            "title": "Camiseta Deportiva Ajax",
+            "quantity": 3,
+            "category": "Países Bajos",
+            "collection": "Eredivisie",
+            "image": "/images/camisa-real.jpg 61EdIHLMdvL._AC_UL1500_.jpg"
+        }
+    ]
+
+}

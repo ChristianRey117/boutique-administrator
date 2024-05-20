@@ -1,7 +1,6 @@
 "use client";
 import CardItem from "@/app/components/card-items/card-items";
 import { useEffect, useState } from "react";
-import { Card } from "react-bootstrap";
 
 export default function Products() {
   const [products, setProducts] = useState(Array<IProducts>);
@@ -29,7 +28,7 @@ export default function Products() {
                 id={product.id}
                 image={product.image}
                 title={product.title}
-                nextStep={"/pages/product/"}
+                nextStep={"/pages/product/get?id="}
                 key={product.id}
               ></CardItem>
             </div>
@@ -48,4 +47,5 @@ export interface IProducts {
   category: string;
   collection: string;
   image: string;
+  description: string;
 }

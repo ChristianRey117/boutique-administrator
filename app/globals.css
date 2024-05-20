@@ -79,6 +79,7 @@ h3{
 .p-inputtext{
   background-color: rgb(133, 144, 161);
   height: 2.5rem;
+  padding: 10px;
 }
 
 .p-fileupload-buttonbar{

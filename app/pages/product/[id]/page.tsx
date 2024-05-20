@@ -1,13 +1,26 @@
 "use client";
 import CardItem from "@/app/components/card-items/card-items";
 import { InputText } from "primereact/inputtext";
+import { useEffect, useState } from "react";
+import { IProducts } from "../../products/page";
 
 export default function ProductId() {
+  const [product, setProduct] = useState<IProducts>();
+
+  useEffect(() => {
+    const params = new URLSearchParams(document.location.search);
+    const id = params.get("id");
+    fetch("http://localhost:3000/products?id=" + id)
+      .then((res) => res.json())
+      .then((data) => {
+        setProduct(data[0]);
+      });
+  }, []);
   return (
     <div className="container">
       <div className="row" style={{ margin: "5%" }}>
         <div className="col-12">
-          <h1>Product TITLE</h1>
+          <h1>{product?.title}</h1>
         </div>
       </div>
 
@@ -22,6 +35,7 @@ export default function ProductId() {
                 type="tect"
                 className="p-inputtext-lg"
                 required
+                defaultValue={product?.title}
               />
               <small id="username-help">Enter name of product.</small>
             </div>
@@ -34,6 +48,7 @@ export default function ProductId() {
                 type="text"
                 className="p-inputtext-lg"
                 required
+                defaultValue={product?.description}
               />
               <small id="username-help">Enter description of product.</small>
             </div>
@@ -46,6 +61,7 @@ export default function ProductId() {
                 type="number"
                 className="p-inputtext-lg"
                 required
+                defaultValue={product?.quantity}
               />
               <small id="username-help">
                 Enter quantity available of product.

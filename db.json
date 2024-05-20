@@ -7,7 +7,8 @@
             "quantity": 3,
             "category": "España",
             "collection": "La Liga",
-            "image": "/images/camisa-real.jpg"
+            "image": "/images/camisa-real.jpg",
+            "description": "Official Juventus shirt for the 2024 season."
         },
         {
             "id": 2,
@@ -16,7 +17,8 @@
             "quantity": 7,
             "category": "España",
             "collection": "La Liga",
-            "image": "/images/camisa-real.jpg"
+            "image": "/images/camisa-real.jpg",
+            "description": "Official Juventus shirt for the 2024 season."
         },
         {
             "id": 3,
@@ -25,7 +27,8 @@
             "quantity": 5,
             "category": "Inglaterra",
             "collection": "Premier League",
-            "image": "/images/camisa-real.jpg"
+            "image": "/images/camisa-real.jpg",
+            "description": "Official Juventus shirt for the 2024 season."
         },
         {
             "id": 4,
@@ -34,7 +37,8 @@
             "quantity": 4,
             "category": "Inglaterra",
             "collection": "Premier League",
-            "image": "/images/camisa-real.jpg"
+            "image": "/images/camisa-real.jpg",
+            "description": "Official Juventus shirt for the 2024 season."
         },
         {
             "id": 5,
@@ -43,7 +47,8 @@
             "quantity": 6,
             "category": "Italia",
             "collection": "Serie A",
-            "image": "/images/camisa-real.jpg"
+            "image": "/images/camisa-real.jpg",
+            "description": "Official Juventus shirt for the 2024 season."
         },
         {
             "id": 6,
@@ -52,7 +57,8 @@
             "quantity": 2,
             "category": "Alemania",
             "collection": "Bundesliga",
-            "image": "/images/camisa-real.jpg"
+            "image": "/images/camisa-real.jpg",
+            "description": "Official Juventus shirt for the 2024 season."
         },
         {
             "id": 7,
@@ -61,7 +67,8 @@
             "quantity": 8,
             "category": "Francia",
             "collection": "Ligue 1",
-            "image": "/images/camisa-real.jpg"
+            "image": "/images/camisa-real.jpg",
+            "description": "Official Juventus shirt for the 2024 season."
         },
         {
             "id": 8,
@@ -70,7 +77,8 @@
             "quantity": 5,
             "category": "Inglaterra",
             "collection": "Premier League",
-            "image": "/images/camisa-real.jpg 61y1zF72rUL._AC_UL1500_.jpg"
+            "image": "/images/camisa-real.jpg 61y1zF72rUL._AC_UL1500_.jpg",
+            "description": "Official Juventus shirt for the 2024 season."
         },
         {
             "id": 9,
@@ -79,7 +87,8 @@
             "quantity": 9,
             "category": "Italia",
             "collection": "Serie A",
-            "image": "/images/camisa-real.jpg 71nXWlMPX3L._AC_UL1500_.jpg"
+            "image": "/images/camisa-real.jpg 71nXWlMPX3L._AC_UL1500_.jpg",
+            "description": "Official Juventus shirt for the 2024 season."
         },
         {
             "id": 10,
@@ -88,7 +97,8 @@
             "quantity": 4,
             "category": "Italia",
             "collection": "Serie A",
-            "image": "/images/camisa-real.jpg 51jJxAIyEJL._AC_UL1000_.jpg"
+            "image": "/images/camisa-real.jpg 51jJxAIyEJL._AC_UL1000_.jpg",
+            "description": "Official Juventus shirt for the 2024 season."
         },
         {
             "id": 11,
@@ -97,7 +107,8 @@
             "quantity": 7,
             "category": "Inglaterra",
             "collection": "Premier League",
-            "image": "/images/camisa-real.jpg 61FtDAryljL._AC_UL1500_.jpg"
+            "image": "/images/camisa-real.jpg 61FtDAryljL._AC_UL1500_.jpg",
+            "description": "Official Juventus shirt for the 2024 season."
         },
         {
             "id": 12,
@@ -106,7 +117,8 @@
             "quantity": 3,
             "category": "Inglaterra",
             "collection": "Premier League",
-            "image": "/images/camisa-real.jpg 61rLTeJZUpL._AC_UL1500_.jpg"
+            "image": "/images/camisa-real.jpg 61rLTeJZUpL._AC_UL1500_.jpg",
+            "description": "Official Juventus shirt for the 2024 season."
         },
         {
             "id": 13,
@@ -115,7 +127,8 @@
             "quantity": 6,
             "category": "Alemania",
             "collection": "Bundesliga",
-            "image": "/images/camisa-real.jpg 51IuUO2S+iL._AC_UL1000_.jpg"
+            "image": "/images/camisa-real.jpg 51IuUO2S+iL._AC_UL1000_.jpg",
+            "description": "Official Juventus shirt for the 2024 season."
         },
         {
             "id": 14,
@@ -124,7 +137,8 @@
             "quantity": 5,
             "category": "España",
             "collection": "La Liga",
-            "image": "/images/camisa-real.jpg 61PHW9JtQzL._AC_UL1500_.jpg"
+            "image": "/images/camisa-real.jpg 61PHW9JtQzL._AC_UL1500_.jpg",
+            "description": "Official Juventus shirt for the 2024 season."
         },
         {
             "id": 15,
@@ -133,7 +147,8 @@
             "quantity": 8,
             "category": "Italia",
             "collection": "Serie A",
-            "image": "/images/camisa-real.jpg 71+pHltxyDL._AC_UL1500_.jpg"
+            "image": "/images/camisa-real.jpg 71+pHltxyDL._AC_UL1500_.jpg",
+            "description": "Official Juventus shirt for the 2024 season."
         },
         {
             "id": 16,
@@ -142,7 +157,8 @@
             "quantity": 4,
             "category": "Portugal",
             "collection": "Primeira Liga",
-            "image": "/images/camisa-real.jpg 61Qa1N10g+L._AC_UL1500_.jpg"
+            "image": "/images/camisa-real.jpg 61Qa1N10g+L._AC_UL1500_.jpg",
+            "description": "Official Juventus shirt for the 2024 season."
         },
         {
             "id": 17,
@@ -151,7 +167,8 @@
             "quantity": 7,
             "category": "Portugal",
             "collection": "Primeira Liga",
-            "image": "/images/camisa-real.jpg 71pfymLGRXL._AC_UL1500_.jpg"
+            "image": "/images/camisa-real.jpg 71pfymLGRXL._AC_UL1500_.jpg",
+            "description": "Official Juventus shirt for the 2024 season."
         },
         {
             "id": 18,
@@ -160,7 +177,8 @@
             "quantity": 6,
             "category": "España",
             "collection": "La Liga",
-            "image": "/images/camisa-real.jpg 51Oq9t3iNjL._AC_UL1000_.jpg"
+            "image": "/images/camisa-real.jpg 51Oq9t3iNjL._AC_UL1000_.jpg",
+            "description": "Official Juventus shirt for the 2024 season."
         },
         {
             "id": 19,
@@ -169,7 +187,8 @@
             "quantity": 5,
             "category": "Francia",
             "collection": "Ligue 1",
-            "image": "/images/camisa-real.jpg 61kAviYrOHL._AC_UL1500_.jpg"
+            "image": "/images/camisa-real.jpg 61kAviYrOHL._AC_UL1500_.jpg",
+            "description": "Official Juventus shirt for the 2024 season."
         },
         {
             "id": 20,
@@ -178,8 +197,48 @@
             "quantity": 3,
             "category": "Países Bajos",
             "collection": "Eredivisie",
-            "image": "/images/camisa-real.jpg 61EdIHLMdvL._AC_UL1500_.jpg"
+            "image": "/images/camisa-real.jpg 61EdIHLMdvL._AC_UL1500_.jpg",
+            "description": "Official Juventus shirt for the 2024 season."
         }
-    ]
+    ],
+
+    "collections": [
+        {
+          "id": 1,
+          "nameColletion": "La Liga",
+          "descriptionColletion": "Description of the La Liga Collection",
+          "availableData": "2024-05-19"
+        },
+        {
+          "id": 2,
+          "nameColletion": "Eredivisie",
+          "descriptionColletion": "Description of the Eredivisie Collection",
+          "availableData": "2024-05-20"
+        },
+        {
+          "id": 3,
+          "nameColletion": "Ligue 1",
+          "descriptionColletion": "Description of the Ligue 1 Collection",
+          "availableData": "2024-05-21"
+        },
+        {
+          "id": 4,
+          "nameColletion": "Primeira Liga",
+          "descriptionColletion": "Description of the League Collection",
+          "availableData": "2024-05-22"
+        },
+        {
+          "id": 5,
+          "nameColletion": "Serie A",
+          "descriptionColletion": "Description of the Serie A Collection",
+          "availableData": "2024-05-23"
+        },
+        {
+          "id": 6,
+          "nameColletion": "Bundesliga",
+          "descriptionColletion": "Description of the Bundesliga Collection",
+          "availableData": "2024-05-24"
+        }
+      ]
 
 }

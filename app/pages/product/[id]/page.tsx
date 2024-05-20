@@ -1,15 +1,41 @@
 "use client";
 import CardItem from "@/app/components/card-items/card-items";
 import { InputText } from "primereact/inputtext";
-import { useEffect, useState } from "react";
+import { FormEvent, useEffect, useState } from "react";
 import { IProducts } from "../../products/page";
 
 export default function ProductId() {
   const [product, setProduct] = useState<IProducts>();
+  const [constId, setId] = useState<any>();
+
+  const submitAction = (event: any) => {
+    event.preventDefault();
+    console.log(event.target[0].value);
+    const changeProduct: any = {
+      createAt: product?.createAt,
+      title: event.target.name.value,
+      quantity: Number(event.target.quantity.value),
+      category: product?.category,
+      collection: product?.collection,
+      image: product?.image,
+      description: event.target.description.value,
+    };
+    fetch("http://localhost:3000/products/" + constId, {
+      method: "PUT",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(changeProduct),
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        console.log(data);
+        window.location.reload();
+      });
+  };
 
   useEffect(() => {
     const params = new URLSearchParams(document.location.search);
     const id = params.get("id");
+    setId(id);
     fetch("http://localhost:3000/products/" + id)
       .then((res) => res.json())
       .then((data) => {
@@ -26,7 +52,7 @@ export default function ProductId() {
 
       <div className="row" style={{ margin: "10% 20%" }}>
         <div className="col-12">
-          <form action="">
+          <form onSubmit={submitAction}>
             <div className="flex flex-column gap-2 mb-4 ">
               <label htmlFor="username">Name of product</label>
               <InputText

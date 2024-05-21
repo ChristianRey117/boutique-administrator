@@ -58,4 +58,5 @@ export interface ICollections {
   nameColletion: string;
   descriptionColletion: string;
   availableData: string;
+  image: string;
 }

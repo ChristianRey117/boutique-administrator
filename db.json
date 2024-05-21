@@ -207,37 +207,43 @@
           "id": 1,
           "nameColletion": "La Liga",
           "descriptionColletion": "Description of the La Liga Collection",
-          "availableData": "2024-05-19"
+          "availableData": "2024-05-19",
+          "image": "/images/liga-logo.png"
         },
         {
           "id": 2,
           "nameColletion": "Eredivisie",
           "descriptionColletion": "Description of the Eredivisie Collection",
-          "availableData": "2024-05-20"
+          "availableData": "2024-05-20",
+          "image": "/images/liga-logo.png"
         },
         {
           "id": 3,
           "nameColletion": "Ligue 1",
           "descriptionColletion": "Description of the Ligue 1 Collection",
-          "availableData": "2024-05-21"
+          "availableData": "2024-05-21",
+          "image": "/images/liga-logo.png"
         },
         {
           "id": 4,
           "nameColletion": "Primeira Liga",
           "descriptionColletion": "Description of the League Collection",
-          "availableData": "2024-05-22"
+          "availableData": "2024-05-22",
+          "image": "/images/liga-logo.png"
         },
         {
           "id": 5,
           "nameColletion": "Serie A",
           "descriptionColletion": "Description of the Serie A Collection",
-          "availableData": "2024-05-23"
+          "availableData": "2024-05-23",
+          "image": "/images/liga-logo.png"
         },
         {
           "id": 6,
           "nameColletion": "Bundesliga",
           "descriptionColletion": "Description of the Bundesliga Collection",
-          "availableData": "2024-05-24"
+          "availableData": "2024-05-24",
+          "image": "/images/liga-logo.png"
         }
       ]
 

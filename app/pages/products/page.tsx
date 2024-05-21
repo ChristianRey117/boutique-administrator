@@ -63,4 +63,5 @@ export interface IProducts {
   collection: string;
   image: string;
   description: string;
+  price: number;
 }

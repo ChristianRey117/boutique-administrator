@@ -19,6 +19,7 @@ export default function ProductId() {
       collection: product?.collection,
       image: product?.image,
       description: event.target.description.value,
+      price: event.target.price.value,
     };
     fetch("http://localhost:3000/products/" + constId, {
       method: "PUT",
@@ -102,6 +103,7 @@ export default function ProductId() {
                 type="tel"
                 className="p-inputtext-lg"
                 required
+                defaultValue={product?.price}
               />
               <small id="username-help">Enter price of product.</small>
             </div>

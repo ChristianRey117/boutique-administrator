@@ -33,7 +33,7 @@ export default function Header() {
   }
 
   useEffect(() => {
-    if (JSON.parse(getCookie("isLogin") ?? "")) {
+    if (JSON.parse(getCookie("isLogin") ?? "false")) {
       setIsLogin(true);
     }
   }, []);

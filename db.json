@@ -1,250 +1,268 @@
 {
-    "products": [
-        {
-            "id": 1,
-            "createAt": "2024-05-19",
-            "title": "Camiseta Deportiva FC Barcelona",
-            "quantity": 3,
-            "category": "España",
-            "collection": "La Liga",
-            "image": "/images/camisa-real.jpg",
-            "description": "Official Juventus shirt for the 2024 season."
-        },
-        {
-            "id": 2,
-            "createAt": "2024-05-19",
-            "title": "Camiseta Deportiva Real Madrid",
-            "quantity": 7,
-            "category": "España",
-            "collection": "La Liga",
-            "image": "/images/camisa-real.jpg",
-            "description": "Official Juventus shirt for the 2024 season."
-        },
-        {
-            "id": 3,
-            "createAt": "2024-05-19",
-            "title": "Camiseta Deportiva Manchester United",
-            "quantity": 5,
-            "category": "Inglaterra",
-            "collection": "Premier League",
-            "image": "/images/camisa-real.jpg",
-            "description": "Official Juventus shirt for the 2024 season."
-        },
-        {
-            "id": 4,
-            "createAt": "2024-05-19",
-            "title": "Camiseta Deportiva Liverpool FC",
-            "quantity": 4,
-            "category": "Inglaterra",
-            "collection": "Premier League",
-            "image": "/images/camisa-real.jpg",
-            "description": "Official Juventus shirt for the 2024 season."
-        },
-        {
-            "id": 5,
-            "createAt": "2024-05-19",
-            "title": "Camiseta Deportiva Juventus",
-            "quantity": 6,
-            "category": "Italia",
-            "collection": "Serie A",
-            "image": "/images/camisa-real.jpg",
-            "description": "Official Juventus shirt for the 2024 season."
-        },
-        {
-            "id": 6,
-            "createAt": "2024-05-19",
-            "title": "Camiseta Deportiva Bayern Munich",
-            "quantity": 2,
-            "category": "Alemania",
-            "collection": "Bundesliga",
-            "image": "/images/camisa-real.jpg",
-            "description": "Official Juventus shirt for the 2024 season."
-        },
-        {
-            "id": 7,
-            "createAt": "2024-05-19",
-            "title": "Camiseta Deportiva PSG",
-            "quantity": 8,
-            "category": "Francia",
-            "collection": "Ligue 1",
-            "image": "/images/camisa-real.jpg",
-            "description": "Official Juventus shirt for the 2024 season."
-        },
-        {
-            "id": 8,
-            "createAt": "2024-05-19",
-            "title": "Camiseta Deportiva Chelsea FC",
-            "quantity": 5,
-            "category": "Inglaterra",
-            "collection": "Premier League",
-            "image": "/images/camisa-real.jpg 61y1zF72rUL._AC_UL1500_.jpg",
-            "description": "Official Juventus shirt for the 2024 season."
-        },
-        {
-            "id": 9,
-            "createAt": "2024-05-19",
-            "title": "Camiseta Deportiva AC Milan",
-            "quantity": 9,
-            "category": "Italia",
-            "collection": "Serie A",
-            "image": "/images/camisa-real.jpg 71nXWlMPX3L._AC_UL1500_.jpg",
-            "description": "Official Juventus shirt for the 2024 season."
-        },
-        {
-            "id": 10,
-            "createAt": "2024-05-19",
-            "title": "Camiseta Deportiva Inter de Milán",
-            "quantity": 4,
-            "category": "Italia",
-            "collection": "Serie A",
-            "image": "/images/camisa-real.jpg 51jJxAIyEJL._AC_UL1000_.jpg",
-            "description": "Official Juventus shirt for the 2024 season."
-        },
-        {
-            "id": 11,
-            "createAt": "2024-05-19",
-            "title": "Camiseta Deportiva Tottenham Hotspur",
-            "quantity": 7,
-            "category": "Inglaterra",
-            "collection": "Premier League",
-            "image": "/images/camisa-real.jpg 61FtDAryljL._AC_UL1500_.jpg",
-            "description": "Official Juventus shirt for the 2024 season."
-        },
-        {
-            "id": 12,
-            "createAt": "2024-05-19",
-            "title": "Camiseta Deportiva Arsenal FC",
-            "quantity": 3,
-            "category": "Inglaterra",
-            "collection": "Premier League",
-            "image": "/images/camisa-real.jpg 61rLTeJZUpL._AC_UL1500_.jpg",
-            "description": "Official Juventus shirt for the 2024 season."
-        },
-        {
-            "id": 13,
-            "createAt": "2024-05-19",
-            "title": "Camiseta Deportiva Borussia Dortmund",
-            "quantity": 6,
-            "category": "Alemania",
-            "collection": "Bundesliga",
-            "image": "/images/camisa-real.jpg 51IuUO2S+iL._AC_UL1000_.jpg",
-            "description": "Official Juventus shirt for the 2024 season."
-        },
-        {
-            "id": 14,
-            "createAt": "2024-05-19",
-            "title": "Camiseta Deportiva Atlético de Madrid",
-            "quantity": 5,
-            "category": "España",
-            "collection": "La Liga",
-            "image": "/images/camisa-real.jpg 61PHW9JtQzL._AC_UL1500_.jpg",
-            "description": "Official Juventus shirt for the 2024 season."
-        },
-        {
-            "id": 15,
-            "createAt": "2024-05-19",
-            "title": "Camiseta Deportiva AS Roma",
-            "quantity": 8,
-            "category": "Italia",
-            "collection": "Serie A",
-            "image": "/images/camisa-real.jpg 71+pHltxyDL._AC_UL1500_.jpg",
-            "description": "Official Juventus shirt for the 2024 season."
-        },
-        {
-            "id": 16,
-            "createAt": "2024-05-19",
-            "title": "Camiseta Deportiva FC Porto",
-            "quantity": 4,
-            "category": "Portugal",
-            "collection": "Primeira Liga",
-            "image": "/images/camisa-real.jpg 61Qa1N10g+L._AC_UL1500_.jpg",
-            "description": "Official Juventus shirt for the 2024 season."
-        },
-        {
-            "id": 17,
-            "createAt": "2024-05-19",
-            "title": "Camiseta Deportiva SL Benfica",
-            "quantity": 7,
-            "category": "Portugal",
-            "collection": "Primeira Liga",
-            "image": "/images/camisa-real.jpg 71pfymLGRXL._AC_UL1500_.jpg",
-            "description": "Official Juventus shirt for the 2024 season."
-        },
-        {
-            "id": 18,
-            "createAt": "2024-05-19",
-            "title": "Camiseta Deportiva Sevilla FC",
-            "quantity": 6,
-            "category": "España",
-            "collection": "La Liga",
-            "image": "/images/camisa-real.jpg 51Oq9t3iNjL._AC_UL1000_.jpg",
-            "description": "Official Juventus shirt for the 2024 season."
-        },
-        {
-            "id": 19,
-            "createAt": "2024-05-19",
-            "title": "Camiseta Deportiva Olympique de Lyon",
-            "quantity": 5,
-            "category": "Francia",
-            "collection": "Ligue 1",
-            "image": "/images/camisa-real.jpg 61kAviYrOHL._AC_UL1500_.jpg",
-            "description": "Official Juventus shirt for the 2024 season."
-        },
-        {
-            "id": 20,
-            "createAt": "2024-05-19",
-            "title": "Camiseta Deportiva Ajax",
-            "quantity": 3,
-            "category": "Países Bajos",
-            "collection": "Eredivisie",
-            "image": "/images/camisa-real.jpg 61EdIHLMdvL._AC_UL1500_.jpg",
-            "description": "Official Juventus shirt for the 2024 season."
-        }
-    ],
-
-    "collections": [
-        {
-          "id": 1,
-          "nameColletion": "La Liga",
-          "descriptionColletion": "Description of the La Liga Collection",
-          "availableData": "2024-05-19",
-          "image": "/images/liga-logo.png"
-        },
-        {
-          "id": 2,
-          "nameColletion": "Eredivisie",
-          "descriptionColletion": "Description of the Eredivisie Collection",
-          "availableData": "2024-05-20",
-          "image": "/images/liga-logo.png"
-        },
-        {
-          "id": 3,
-          "nameColletion": "Ligue 1",
-          "descriptionColletion": "Description of the Ligue 1 Collection",
-          "availableData": "2024-05-21",
-          "image": "/images/liga-logo.png"
-        },
-        {
-          "id": 4,
-          "nameColletion": "Primeira Liga",
-          "descriptionColletion": "Description of the League Collection",
-          "availableData": "2024-05-22",
-          "image": "/images/liga-logo.png"
-        },
-        {
-          "id": 5,
-          "nameColletion": "Serie A",
-          "descriptionColletion": "Description of the Serie A Collection",
-          "availableData": "2024-05-23",
-          "image": "/images/liga-logo.png"
-        },
-        {
-          "id": 6,
-          "nameColletion": "Bundesliga",
-          "descriptionColletion": "Description of the Bundesliga Collection",
-          "availableData": "2024-05-24",
-          "image": "/images/liga-logo.png"
-        }
-      ]
-
+  "products": [
+    {
+      "createAt": "2024-05-19",
+      "title": "Camiseta Deportiva FC Barcelona",
+      "quantity": 3,
+      "category": "España",
+      "collection": "La Liga",
+      "image": "/images/camisa-real.jpg",
+      "description": "Official Juventus shirt for the 2024 season.",
+      "price": "55",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "createAt": "2024-05-19",
+      "title": "Camiseta Deportiva Real Madrid",
+      "quantity": 7,
+      "category": "España",
+      "collection": "La Liga",
+      "image": "/images/camisa-real.jpg",
+      "description": "Official Juventus shirt for the 2024 season.",
+      "price": 65
+    },
+    {
+      "id": 3,
+      "createAt": "2024-05-19",
+      "title": "Camiseta Deportiva Manchester United",
+      "quantity": 5,
+      "category": "Inglaterra",
+      "collection": "Premier League",
+      "image": "/images/camisa-real.jpg",
+      "description": "Official Juventus shirt for the 2024 season.",
+      "price": 80
+    },
+    {
+      "id": 4,
+      "createAt": "2024-05-19",
+      "title": "Camiseta Deportiva Liverpool FC",
+      "quantity": 4,
+      "category": "Inglaterra",
+      "collection": "Premier League",
+      "image": "/images/camisa-real.jpg",
+      "description": "Official Juventus shirt for the 2024 season.",
+      "price": 55
+    },
+    {
+      "id": 5,
+      "createAt": "2024-05-19",
+      "title": "Camiseta Deportiva Juventus",
+      "quantity": 6,
+      "category": "Italia",
+      "collection": "Serie A",
+      "image": "/images/camisa-real.jpg",
+      "description": "Official Juventus shirt for the 2024 season.",
+      "price": 50
+    },
+    {
+      "id": 6,
+      "createAt": "2024-05-19",
+      "title": "Camiseta Deportiva Bayern Munich",
+      "quantity": 2,
+      "category": "Alemania",
+      "collection": "Bundesliga",
+      "image": "/images/camisa-real.jpg",
+      "description": "Official Juventus shirt for the 2024 season.",
+      "price": 60
+    },
+    {
+      "id": 7,
+      "createAt": "2024-05-19",
+      "title": "Camiseta Deportiva PSG",
+      "quantity": 8,
+      "category": "Francia",
+      "collection": "Ligue 1",
+      "image": "/images/camisa-real.jpg",
+      "description": "Official Juventus shirt for the 2024 season.",
+      "price": 50
+    },
+    {
+      "id": 8,
+      "createAt": "2024-05-19",
+      "title": "Camiseta Deportiva Chelsea FC",
+      "quantity": 5,
+      "category": "Inglaterra",
+      "collection": "Premier League",
+      "image": "/images/camisa-real.jpg 61y1zF72rUL._AC_UL1500_.jpg",
+      "description": "Official Juventus shirt for the 2024 season.",
+      "price": 70
+    },
+    {
+      "id": 9,
+      "createAt": "2024-05-19",
+      "title": "Camiseta Deportiva AC Milan",
+      "quantity": 9,
+      "category": "Italia",
+      "collection": "Serie A",
+      "image": "/images/camisa-real.jpg 71nXWlMPX3L._AC_UL1500_.jpg",
+      "description": "Official Juventus shirt for the 2024 season.",
+      "price": 75
+    },
+    {
+      "id": 10,
+      "createAt": "2024-05-19",
+      "title": "Camiseta Deportiva Inter de Milán",
+      "quantity": 4,
+      "category": "Italia",
+      "collection": "Serie A",
+      "image": "/images/camisa-real.jpg 51jJxAIyEJL._AC_UL1000_.jpg",
+      "description": "Official Juventus shirt for the 2024 season.",
+      "price": 80
+    },
+    {
+      "id": 11,
+      "createAt": "2024-05-19",
+      "title": "Camiseta Deportiva Tottenham Hotspur",
+      "quantity": 7,
+      "category": "Inglaterra",
+      "collection": "Premier League",
+      "image": "/images/camisa-real.jpg 61FtDAryljL._AC_UL1500_.jpg",
+      "description": "Official Juventus shirt for the 2024 season.",
+      "price": 50
+    },
+    {
+      "id": 12,
+      "createAt": "2024-05-19",
+      "title": "Camiseta Deportiva Arsenal FC",
+      "quantity": 3,
+      "category": "Inglaterra",
+      "collection": "Premier League",
+      "image": "/images/camisa-real.jpg 61rLTeJZUpL._AC_UL1500_.jpg",
+      "description": "Official Juventus shirt for the 2024 season.",
+      "price": 60
+    },
+    {
+      "id": 13,
+      "createAt": "2024-05-19",
+      "title": "Camiseta Deportiva Borussia Dortmund",
+      "quantity": 6,
+      "category": "Alemania",
+      "collection": "Bundesliga",
+      "image": "/images/camisa-real.jpg 51IuUO2S+iL._AC_UL1000_.jpg",
+      "description": "Official Juventus shirt for the 2024 season.",
+      "price": 65
+    },
+    {
+      "id": 14,
+      "createAt": "2024-05-19",
+      "title": "Camiseta Deportiva Atlético de Madrid",
+      "quantity": 5,
+      "category": "España",
+      "collection": "La Liga",
+      "image": "/images/camisa-real.jpg 61PHW9JtQzL._AC_UL1500_.jpg",
+      "description": "Official Juventus shirt for the 2024 season.",
+      "price": 55
+    },
+    {
+      "id": 15,
+      "createAt": "2024-05-19",
+      "title": "Camiseta Deportiva AS Roma",
+      "quantity": 8,
+      "category": "Italia",
+      "collection": "Serie A",
+      "image": "/images/camisa-real.jpg 71+pHltxyDL._AC_UL1500_.jpg",
+      "description": "Official Juventus shirt for the 2024 season.",
+      "price": 65
+    },
+    {
+      "id": 16,
+      "createAt": "2024-05-19",
+      "title": "Camiseta Deportiva FC Porto",
+      "quantity": 4,
+      "category": "Portugal",
+      "collection": "Primeira Liga",
+      "image": "/images/camisa-real.jpg 61Qa1N10g+L._AC_UL1500_.jpg",
+      "description": "Official Juventus shirt for the 2024 season.",
+      "price": 70
+    },
+    {
+      "id": 17,
+      "createAt": "2024-05-19",
+      "title": "Camiseta Deportiva SL Benfica",
+      "quantity": 7,
+      "category": "Portugal",
+      "collection": "Primeira Liga",
+      "image": "/images/camisa-real.jpg 71pfymLGRXL._AC_UL1500_.jpg",
+      "description": "Official Juventus shirt for the 2024 season.",
+      "price": 75
+    },
+    {
+      "id": 18,
+      "createAt": "2024-05-19",
+      "title": "Camiseta Deportiva Sevilla FC",
+      "quantity": 6,
+      "category": "España",
+      "collection": "La Liga",
+      "image": "/images/camisa-real.jpg 51Oq9t3iNjL._AC_UL1000_.jpg",
+      "description": "Official Juventus shirt for the 2024 season.",
+      "price": 55
+    },
+    {
+      "id": 19,
+      "createAt": "2024-05-19",
+      "title": "Camiseta Deportiva Olympique de Lyon",
+      "quantity": 5,
+      "category": "Francia",
+      "collection": "Ligue 1",
+      "image": "/images/camisa-real.jpg 61kAviYrOHL._AC_UL1500_.jpg",
+      "description": "Official Juventus shirt for the 2024 season.",
+      "price": 65
+    },
+    {
+      "id": 20,
+      "createAt": "2024-05-19",
+      "title": "Camiseta Deportiva Ajax",
+      "quantity": 3,
+      "category": "Países Bajos",
+      "collection": "Eredivisie",
+      "image": "/images/camisa-real.jpg 61EdIHLMdvL._AC_UL1500_.jpg",
+      "description": "Official Juventus shirt for the 2024 season.",
+      "price": 70
+    }
+  ],
+  "collections": [
+    {
+      "id": 1,
+      "nameColletion": "La Liga",
+      "descriptionColletion": "Description of the La Liga Collection",
+      "availableData": "2024-05-19",
+      "image": "/images/liga-logo.png"
+    },
+    {
+      "id": 2,
+      "nameColletion": "Eredivisie",
+      "descriptionColletion": "Description of the Eredivisie Collection",
+      "availableData": "2024-05-20",
+      "image": "/images/liga-logo.png"
+    },
+    {
+      "id": 3,
+      "nameColletion": "Ligue 1",
+      "descriptionColletion": "Description of the Ligue 1 Collection",
+      "availableData": "2024-05-21",
+      "image": "/images/liga-logo.png"
+    },
+    {
+      "id": 4,
+      "nameColletion": "Primeira Liga",
+      "descriptionColletion": "Description of the League Collection",
+      "availableData": "2024-05-22",
+      "image": "/images/liga-logo.png"
+    },
+    {
+      "id": 5,
+      "nameColletion": "Serie A",
+      "descriptionColletion": "Description of the Serie A Collection",
+      "availableData": "2024-05-23",
+      "image": "/images/liga-logo.png"
+    },
+    {
+      "id": 6,
+      "nameColletion": "Bundesliga",
+      "descriptionColletion": "Description of the Bundesliga Collection",
+      "availableData": "2024-05-24",
+      "image": "/images/liga-logo.png"
+    }
+  ]
 }

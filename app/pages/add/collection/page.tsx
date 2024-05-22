@@ -3,14 +3,17 @@ import CardItem from "@/app/components/card-items/card-items";
 import { InputText } from "primereact/inputtext";
 import { useEffect, useState } from "react";
 import { ICollections } from "../../promotions/page";
+import { useRouter } from "next/navigation";
 
 export default function AddCollection() {
+  const _router = useRouter();
   const submitAction = (event: any) => {
     event.preventDefault();
     const changeCollection: any = {
       availableData: event.target.availableData.value,
       nameColletion: event.target.nameColletion.value,
       descriptionColletion: event.target.descriptionColletion.value,
+      image: "/images/ligamx-logo.png",
     };
     fetch("http://localhost:3000/collections", {
       method: "POST",
@@ -19,8 +22,7 @@ export default function AddCollection() {
     })
       .then((res) => res.json())
       .then((data) => {
-        console.log(data);
-        window.location.reload();
+        _router.push("/pages/promotions");
       });
   };
 

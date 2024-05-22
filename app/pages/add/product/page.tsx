@@ -3,8 +3,10 @@ import CardItem from "@/app/components/card-items/card-items";
 import { InputText } from "primereact/inputtext";
 import { FormEvent, useEffect, useState } from "react";
 import { IProducts } from "../../products/page";
+import { useRouter } from "next/navigation";
 
 export default function AddProduct() {
+  const _router = useRouter();
   const submitAction = (event: any) => {
     event.preventDefault();
     console.log(event.target[0].value);
@@ -14,7 +16,7 @@ export default function AddProduct() {
       quantity: Number(event.target.quantity.value),
       category: "default category",
       collection: event.target.collection.value,
-      image: "",
+      image: "/images/camisa-america.jpg",
       description: event.target.description.value,
     };
     fetch("http://localhost:3000/products", {
@@ -24,8 +26,7 @@ export default function AddProduct() {
     })
       .then((res) => res.json())
       .then((data) => {
-        console.log(data);
-        window.location.reload();
+        _router.push("/pages/products");
       });
   };
 

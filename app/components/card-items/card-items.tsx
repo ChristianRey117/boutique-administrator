@@ -9,7 +9,7 @@ export default function CardItem({ id, title, image, nextStep }: ICardItem) {
   const handleClose = () => {
     setShow(false);
     fetch(
-      nextStep === "/pages/product/"
+      nextStep === "/pages/product/get?id="
         ? "http://localhost:3000/products/" + id
         : "http://localhost:3000/collections/" + id,
       { method: "DELETE" }

@@ -41,7 +41,7 @@ export default function Promotions() {
             <div className="col-4 mb-4">
               <CardItem
                 id={Number(collection.id)}
-                image={"/images/liga-logo.png"}
+                image={collection.image}
                 title={collection.nameColletion}
                 nextStep={"/pages/promotion/get?id="}
               ></CardItem>

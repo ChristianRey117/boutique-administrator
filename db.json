@@ -234,80 +234,116 @@
       "nameColletion": "Eredivisie",
       "descriptionColletion": "Description of the Eredivisie Collection",
       "availableData": "2024-05-20",
-      "image": "/images/liga-logo.png"
+      "image": "/images/Eredivisie-logo.png"
     },
     {
       "id": 3,
       "nameColletion": "Ligue 1",
       "descriptionColletion": "Description of the Ligue 1 Collection",
       "availableData": "2024-05-21",
-      "image": "/images/liga-logo.png"
+      "image": "/images/ligue1-logo.png"
     },
     {
       "id": 4,
       "nameColletion": "Primeira Liga",
       "descriptionColletion": "Description of the League Collection",
       "availableData": "2024-05-22",
-      "image": "/images/liga-logo.png"
+      "image": "/images/primeira-liga-logo.png"
     },
     {
       "id": 5,
       "nameColletion": "Serie A",
       "descriptionColletion": "Description of the Serie A Collection",
       "availableData": "2024-05-23",
-      "image": "/images/liga-logo.png"
+      "image": "/images/serie-a-logo.jpg"
     },
     {
       "id": 6,
       "nameColletion": "Bundesliga",
       "descriptionColletion": "Description of the Bundesliga Collection",
       "availableData": "2024-05-24",
-      "image": "/images/liga-logo.png"
+      "image": "/images/bundesliga-logo.png"
     }
   ],
-
-  "cartShop":[
+  "cartShop": [],
+  "users": [
     {
-        "id":1,
-        "idUser": 1,
-        "date": "2024-05-20",
-        "productsId":[
-            {
-                "id":1,
-                "size":"XL",
-                "title": "Camiseta Deportiva Ajax",
-                "image": "/images/camisa-real.jpg",
-                "quantity":2,
-                
-                "price": 55
-            },
-            {
-                "id":1,
-                "size":"XL",
-                "title": "Camiseta Deportiva Ajax",
-                "image": "/images/camisa-real.jpg",
-                "quantity":2,
-                "price": 55
-            },
-            {
-                "id":1,
-                "size":"XL",
-                "title": "Camiseta Deportiva Ajax",
-                "image": "/images/camisa-real.jpg",
-                "quantity":2,
-                "price": 55
-            }
-        ]
+      "email": "christian@gmail.com",
+      "name": "Christian",
+      "lastName": "Reyes",
+      "password": "12345",
+      "address": "Rue Jeanne-Mance",
+      "id": 1
+    },
+    {
+      "name": "Christian",
+      "lastName": "Reyes",
+      "email": "prueba@gmail.com",
+      "password": "12345678",
+      "address": "",
+      "id": 2
     }
   ],
-
-  "users":[
+  "shop": [
     {
-        "id":1,
-        "name": "Christian",
-        "lastName": "Reyes",
-        "password": "12345678",
-        "address": "Rue Jeanne-Mance"
+      "idUser": 1,
+      "date": "2024/05/22",
+      "products": [
+        {
+          "id": 3,
+          "size": "L",
+          "title": "Camiseta Deportiva Manchester United",
+          "image": "/images/camisa-real.jpg",
+          "quantity": 1,
+          "price": 80
+        }
+      ],
+      "id": 4
+    },
+    {
+      "idUser": 1,
+      "date": "2024/05/22",
+      "products": [
+        {
+          "id": 1,
+          "size": "M",
+          "title": "Camiseta Deportiva FC Barcelona",
+          "image": "/images/camisa-real.jpg",
+          "quantity": 2,
+          "price": "55"
+        }
+      ],
+      "id": 5
+    },
+    {
+      "idUser": 1,
+      "date": "2024/05/22",
+      "products": [
+        {
+          "id": 1,
+          "size": "M",
+          "title": "Camiseta Deportiva FC Barcelona",
+          "image": "/images/camisa-real.jpg",
+          "quantity": 2,
+          "price": "55"
+        }
+      ],
+      "id": 6
+    },
+    {
+      "idUser": 1,
+      "date": "2024/05/22",
+      "products": [
+        {
+          "id": 8,
+          "size": "L",
+          "title": "Camiseta Deportiva Chelsea FC",
+          "image": "/images/camisa-real.jpg 61y1zF72rUL._AC_UL1500_.jpg",
+          "quantity": 1,
+          "price": 70
+        }
+      ],
+      "id": 7
     }
   ]
 }
